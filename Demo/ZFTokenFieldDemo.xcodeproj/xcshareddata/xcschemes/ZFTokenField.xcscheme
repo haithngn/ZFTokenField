@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC233D341A1204F70046D2A8"
-               BuildableName = "ZFTokenFieldDemo.app"
-               BlueprintName = "ZFTokenFieldDemo"
+               BlueprintIdentifier = "C25702691FB2AA8F007F48C7"
+               BuildableName = "ZFTokenField.framework"
+               BlueprintName = "ZFTokenField"
                ReferencedContainer = "container:ZFTokenFieldDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,23 +29,13 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC233D4D1A1204F70046D2A8"
-               BuildableName = "ZFTokenFieldDemoTests.xctest"
-               BlueprintName = "ZFTokenFieldDemoTests"
-               ReferencedContainer = "container:ZFTokenFieldDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC233D341A1204F70046D2A8"
-            BuildableName = "ZFTokenFieldDemo.app"
-            BlueprintName = "ZFTokenFieldDemo"
+            BlueprintIdentifier = "C25702691FB2AA8F007F48C7"
+            BuildableName = "ZFTokenField.framework"
+            BlueprintName = "ZFTokenField"
             ReferencedContainer = "container:ZFTokenFieldDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,9 +57,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC233D341A1204F70046D2A8"
-            BuildableName = "ZFTokenFieldDemo.app"
-            BlueprintName = "ZFTokenFieldDemo"
+            BlueprintIdentifier = "C25702691FB2AA8F007F48C7"
+            BuildableName = "ZFTokenField.framework"
+            BlueprintName = "ZFTokenField"
             ReferencedContainer = "container:ZFTokenFieldDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -86,9 +76,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC233D341A1204F70046D2A8"
-            BuildableName = "ZFTokenFieldDemo.app"
-            BlueprintName = "ZFTokenFieldDemo"
+            BlueprintIdentifier = "C25702691FB2AA8F007F48C7"
+            BuildableName = "ZFTokenField.framework"
+            BlueprintName = "ZFTokenField"
             ReferencedContainer = "container:ZFTokenFieldDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
