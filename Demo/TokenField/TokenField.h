@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZFTokenField.h"
 
 //! Project version number for TokenField.
 FOUNDATION_EXPORT double TokenFieldVersionNumber;
