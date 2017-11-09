@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C289C1E31FB3F385000BB764 /* ZFTokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = C289C1E11FB3F385000BB764 /* ZFTokenField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C289C1E71FB3F390000BB764 /* ZFTokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = DC233D5F1A1205FE0046D2A8 /* ZFTokenField.h */; };
-		C289C1E81FB3F390000BB764 /* ZFTokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = DC233D601A1205FE0046D2A8 /* ZFTokenField.m */; };
+		C289C1F21FB3F739000BB764 /* TokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = C289C1F01FB3F739000BB764 /* TokenField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C289C1F51FB3F739000BB764 /* TokenField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C289C1EE1FB3F739000BB764 /* TokenField.framework */; };
+		C289C1F61FB3F739000BB764 /* TokenField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C289C1EE1FB3F739000BB764 /* TokenField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C289C1FA1FB3F740000BB764 /* ZFTokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = DC233D5F1A1205FE0046D2A8 /* ZFTokenField.h */; };
+		C289C1FB1FB3F740000BB764 /* ZFTokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = DC233D601A1205FE0046D2A8 /* ZFTokenField.m */; };
 		DC233D3B1A1204F70046D2A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC233D3A1A1204F70046D2A8 /* main.m */; };
 		DC233D3E1A1204F70046D2A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC233D3D1A1204F70046D2A8 /* AppDelegate.m */; };
 		DC233D411A1204F70046D2A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC233D401A1204F70046D2A8 /* ViewController.m */; };
@@ -21,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C289C1F31FB3F739000BB764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC233D2D1A1204F70046D2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C289C1ED1FB3F739000BB764;
+			remoteInfo = TokenField;
+		};
 		DC233D4F1A1204F70046D2A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC233D2D1A1204F70046D2A8 /* Project object */;
@@ -37,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C289C1F61FB3F739000BB764 /* TokenField.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,9 +54,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C289C1DF1FB3F385000BB764 /* ZFTokenField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZFTokenField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C289C1E11FB3F385000BB764 /* ZFTokenField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFTokenField.h; sourceTree = "<group>"; };
-		C289C1E21FB3F385000BB764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C289C1EE1FB3F739000BB764 /* TokenField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TokenField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C289C1F01FB3F739000BB764 /* TokenField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenField.h; sourceTree = "<group>"; };
+		C289C1F11FB3F739000BB764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC233D351A1204F70046D2A8 /* ZFTokenFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFTokenFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC233D391A1204F70046D2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC233D3A1A1204F70046D2A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,7 +74,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C289C1DB1FB3F385000BB764 /* Frameworks */ = {
+		C289C1EA1FB3F739000BB764 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C289C1F51FB3F739000BB764 /* TokenField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,20 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C289C1E01FB3F385000BB764 /* ZFTokenField */ = {
+		C289C1EF1FB3F739000BB764 /* TokenField */ = {
 			isa = PBXGroup;
 			children = (
-				C289C1E11FB3F385000BB764 /* ZFTokenField.h */,
-				C289C1E21FB3F385000BB764 /* Info.plist */,
+				C289C1F01FB3F739000BB764 /* TokenField.h */,
+				C289C1F11FB3F739000BB764 /* Info.plist */,
 			);
-			path = ZFTokenField;
+			path = TokenField;
 			sourceTree = "<group>";
 		};
 		DC233D2C1A1204F70046D2A8 = {
 			isa = PBXGroup;
 			children = (
 				DC233D371A1204F70046D2A8 /* ZFTokenFieldDemo */,
-				C289C1E01FB3F385000BB764 /* ZFTokenField */,
+				C289C1EF1FB3F739000BB764 /* TokenField */,
 				DC233D361A1204F70046D2A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,7 +122,7 @@
 			children = (
 				DC233D351A1204F70046D2A8 /* ZFTokenFieldDemo.app */,
 				DC233D4E1A1204F70046D2A8 /* ZFTokenFieldDemoTests.xctest */,
-				C289C1DF1FB3F385000BB764 /* ZFTokenField.framework */,
+				C289C1EE1FB3F739000BB764 /* TokenField.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,34 +166,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C289C1DC1FB3F385000BB764 /* Headers */ = {
+		C289C1EB1FB3F739000BB764 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C289C1E31FB3F385000BB764 /* ZFTokenField.h in Headers */,
-				C289C1E71FB3F390000BB764 /* ZFTokenField.h in Headers */,
+				C289C1F21FB3F739000BB764 /* TokenField.h in Headers */,
+				C289C1FA1FB3F740000BB764 /* ZFTokenField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C289C1DE1FB3F385000BB764 /* ZFTokenField */ = {
+		C289C1ED1FB3F739000BB764 /* TokenField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C289C1E41FB3F385000BB764 /* Build configuration list for PBXNativeTarget "ZFTokenField" */;
+			buildConfigurationList = C289C1F71FB3F739000BB764 /* Build configuration list for PBXNativeTarget "TokenField" */;
 			buildPhases = (
-				C289C1DA1FB3F385000BB764 /* Sources */,
-				C289C1DB1FB3F385000BB764 /* Frameworks */,
-				C289C1DC1FB3F385000BB764 /* Headers */,
-				C289C1DD1FB3F385000BB764 /* Resources */,
+				C289C1E91FB3F739000BB764 /* Sources */,
+				C289C1EA1FB3F739000BB764 /* Frameworks */,
+				C289C1EB1FB3F739000BB764 /* Headers */,
+				C289C1EC1FB3F739000BB764 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZFTokenField;
-			productName = ZFTokenField;
-			productReference = C289C1DF1FB3F385000BB764 /* ZFTokenField.framework */;
+			name = TokenField;
+			productName = TokenField;
+			productReference = C289C1EE1FB3F739000BB764 /* TokenField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DC233D341A1204F70046D2A8 /* ZFTokenFieldDemo */ = {
@@ -197,6 +208,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C289C1F41FB3F739000BB764 /* PBXTargetDependency */,
 			);
 			name = ZFTokenFieldDemo;
 			productName = ZFTokenFieldDemo;
@@ -230,7 +242,7 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Amornchai Kanokpullwad";
 				TargetAttributes = {
-					C289C1DE1FB3F385000BB764 = {
+					C289C1ED1FB3F739000BB764 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -258,13 +270,13 @@
 			targets = (
 				DC233D341A1204F70046D2A8 /* ZFTokenFieldDemo */,
 				DC233D4D1A1204F70046D2A8 /* ZFTokenFieldDemoTests */,
-				C289C1DE1FB3F385000BB764 /* ZFTokenField */,
+				C289C1ED1FB3F739000BB764 /* TokenField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C289C1DD1FB3F385000BB764 /* Resources */ = {
+		C289C1EC1FB3F739000BB764 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,11 +304,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C289C1DA1FB3F385000BB764 /* Sources */ = {
+		C289C1E91FB3F739000BB764 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C289C1E81FB3F390000BB764 /* ZFTokenField.m in Sources */,
+				C289C1FB1FB3F740000BB764 /* ZFTokenField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +333,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C289C1F41FB3F739000BB764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C289C1ED1FB3F739000BB764 /* TokenField */;
+			targetProxy = C289C1F31FB3F739000BB764 /* PBXContainerItemProxy */;
+		};
 		DC233D501A1204F70046D2A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DC233D341A1204F70046D2A8 /* ZFTokenFieldDemo */;
@@ -348,7 +365,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C289C1E51FB3F385000BB764 /* Debug */ = {
+		C289C1F81FB3F739000BB764 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -375,11 +392,11 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = ZFTokenField/Info.plist;
+				INFOPLIST_FILE = TokenField/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.haithngn.ZFTokenField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haithngn.TokenField;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -388,7 +405,7 @@
 			};
 			name = Debug;
 		};
-		C289C1E61FB3F385000BB764 /* Release */ = {
+		C289C1F91FB3F739000BB764 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -415,11 +432,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = ZFTokenField/Info.plist;
+				INFOPLIST_FILE = TokenField/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.haithngn.ZFTokenField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haithngn.TokenField;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -565,11 +582,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C289C1E41FB3F385000BB764 /* Build configuration list for PBXNativeTarget "ZFTokenField" */ = {
+		C289C1F71FB3F739000BB764 /* Build configuration list for PBXNativeTarget "TokenField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C289C1E51FB3F385000BB764 /* Debug */,
-				C289C1E61FB3F385000BB764 /* Release */,
+				C289C1F81FB3F739000BB764 /* Debug */,
+				C289C1F91FB3F739000BB764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
