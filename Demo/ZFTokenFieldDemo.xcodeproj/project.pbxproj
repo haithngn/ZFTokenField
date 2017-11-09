@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C289C1F51FB3F739000BB764 /* TokenField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C289C1EE1FB3F739000BB764 /* TokenField.framework */; };
 		C289C1F61FB3F739000BB764 /* TokenField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C289C1EE1FB3F739000BB764 /* TokenField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C289C1FA1FB3F740000BB764 /* ZFTokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = DC233D5F1A1205FE0046D2A8 /* ZFTokenField.h */; };
+		C289C1FA1FB3F740000BB764 /* ZFTokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = DC233D5F1A1205FE0046D2A8 /* ZFTokenField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C289C1FB1FB3F740000BB764 /* ZFTokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = DC233D601A1205FE0046D2A8 /* ZFTokenField.m */; };
 		DC233D3B1A1204F70046D2A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC233D3A1A1204F70046D2A8 /* main.m */; };
 		DC233D3E1A1204F70046D2A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC233D3D1A1204F70046D2A8 /* AppDelegate.m */; };
