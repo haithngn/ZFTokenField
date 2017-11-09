@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C289C1F21FB3F739000BB764 /* TokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = C289C1F01FB3F739000BB764 /* TokenField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C289C1F51FB3F739000BB764 /* TokenField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C289C1EE1FB3F739000BB764 /* TokenField.framework */; };
 		C289C1F61FB3F739000BB764 /* TokenField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C289C1EE1FB3F739000BB764 /* TokenField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C289C1FA1FB3F740000BB764 /* ZFTokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = DC233D5F1A1205FE0046D2A8 /* ZFTokenField.h */; };
@@ -55,7 +54,6 @@
 
 /* Begin PBXFileReference section */
 		C289C1EE1FB3F739000BB764 /* TokenField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TokenField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C289C1F01FB3F739000BB764 /* TokenField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenField.h; sourceTree = "<group>"; };
 		C289C1F11FB3F739000BB764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC233D351A1204F70046D2A8 /* ZFTokenFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFTokenFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC233D391A1204F70046D2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 		C289C1EF1FB3F739000BB764 /* TokenField */ = {
 			isa = PBXGroup;
 			children = (
-				C289C1F01FB3F739000BB764 /* TokenField.h */,
 				C289C1F11FB3F739000BB764 /* Info.plist */,
 			);
 			path = TokenField;
@@ -170,7 +167,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C289C1F21FB3F739000BB764 /* TokenField.h in Headers */,
 				C289C1FA1FB3F740000BB764 /* ZFTokenField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
