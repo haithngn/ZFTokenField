@@ -2,7 +2,7 @@
 //  ZFTokenField.h
 //  ZFTokenField
 //
-//  Created by Nguyen Thanh Hai on 11/8/17.
+//  Created by Nguyen Thanh Hai on 11/9/17.
 //  Copyright © 2017 Amornchai Kanokpullwad. All rights reserved.
 //
 
